@@ -65,6 +65,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DBContext.cs" />
+    <Compile Include="DBEntities\Blood.cs" />
+    <Compile Include="DBEntities\BloodServices.cs" />
+    <Compile Include="DBEntities\Patient.cs" />
+    <Compile Include="DBEntities\Service.cs" />
     <Compile Include="DBEntities\User.cs" />
     <Compile Include="StaticInfo.cs" />
     <Page Include="MainWindow.xaml">
